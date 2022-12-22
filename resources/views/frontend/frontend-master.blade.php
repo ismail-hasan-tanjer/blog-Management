@@ -226,7 +226,7 @@
         <h2 class="h5 section-title">Editors Pick</h2>
         <article class="card">
           <div class="post-slider slider-sm">
-            <img src="images/post/post-1.jpg" class="card-img-top" alt="post-thumb">
+            <img src="{{asset('/')}}frontend/images/post/post-1.jpg" class="card-img-top" alt="post-thumb">
           </div>
           
           <div class="card-body">
@@ -432,7 +432,7 @@
       <ul class="card-meta list-inline">
       <li class="list-inline-item">
           <a href="author-single.html" class="card-meta-author">
-          <img src="images/john-doe.jpg">
+          <img src="{{asset('/')}}frontend/images/john-doe.jpg">
           <span>Charls Xaviar</span>
           </a>
       </li>
@@ -720,7 +720,7 @@
     
     <article class="widget-card">
       <div class="d-flex">
-        <img class="card-img-sm" src="{{asset('/')}}frontend/{{asset('/')}}frontend/images/post/post-7.jpg">
+        <img class="card-img-sm" src="{{asset('/')}}frontend/images/post/post-7.jpg">
         <div class="ml-3">
           <h5><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h5>
           <ul class="card-meta list-inline mb-0">
